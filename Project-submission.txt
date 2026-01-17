@@ -1,0 +1,16 @@
+This project is an E-Learning Website developed collaboratively by Abdullah and Salman as part of our web development assignment.
+
+The overall concept and layout inspiration for this project were taken from the following reference website:
+🔗 https://themewagon.github.io/elearning/index.html
+
+This reference was used only for understanding the design flow, structure, and user experience. Based on that inspiration, we implemented our own ideas, content, and structure, and customized the project according to our learning and creativity.
+
+Work Distribution:
+
+Abdullah designed and developed the About and Courses sections/pages, focusing on clear content structure, layout, and presentation.
+
+Salman designed and developed the Home and Contact pages, ensuring a user-friendly interface and smooth navigation.
+
+The project is fully built using our current web development skills, applying HTML, CSS, Bootstrap, and responsive design principles. Through this assignment, we improved our understanding of real-world website structure, teamwork, and practical implementation of front-end concepts.
+
+This submission reflects our independent effort, collaboration, and learning outcomes.
