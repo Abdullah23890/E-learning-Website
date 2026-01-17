@@ -1,0 +1,294 @@
+.custom-navbar {
+  padding: 0;
+  height: 80px;
+  margin-right: 0px;
+}
+
+.menu-icon {
+  font-size: 26px;
+  color: #00bcd4;
+  cursor: pointer;
+  padding-left: 30px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+  color: #00bcd4 !important;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  font-weight: 600;
+  color: #0b132b !important;
+  margin: 0 8px;
+}
+
+.nav-link.active {
+  color: #00bcd4 !important;
+}
+
+.join-btn {
+  background-color: #00bcd4;
+  color: #fff;
+  padding: 30px 35px;
+  border-radius: 0;
+  font-weight: 600;
+  height: 100%;
+ display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  
+}
+
+.join-btn:hover {
+  background-color: #00a5bb;
+  color: #fff;
+}
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+.hero {
+    height: 100vh;
+    position: relative;
+}
+
+.carousel-item {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    color: #fff;
+    max-width: 650px;
+    z-index: 2;
+}
+
+.tag {
+    color: #00c1d4;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+}
+
+.hero p {
+    opacity: 0.9;
+}
+
+.btn-primary {
+    background: #00c1d4;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .hero-content {
+        left: 5%;
+        right: 5%;
+    }
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+}
+ .arrows {
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.arrows span {
+    display: block;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 45px;
+    margin-bottom: 10px;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+
+
+/* feature boxes */
+.feature-box {
+      background: #f3fbfb;
+      padding: 40px 25px;
+      text-align: center;
+      border-radius: 6px;
+      height: 100%;
+    }
+    .feature-box i {
+      font-size: 40px;
+      color: #0dcaf0;
+      margin-bottom: 20px;
+    }
+    .feature-box h4 {
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+    .feature-box p {
+      color: #555;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    /* about us */
+    .about-section {
+  padding: 80px 0;
+}
+
+/* IMAGE FULL HEIGHT */
+.about-img-wrap {
+  height: 100%;
+}
+
+.about-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* TEXT SIDE */
+.about-title {
+  color: #0dcaf0;
+  font-weight: 600;
+  letter-spacing: 1px;
+  position: relative;
+  display: inline-block;
+}
+
+.about-title::after {
+  content: "";
+  width: 60px;
+  height: 2px;
+  background: #0dcaf0;
+  position: absolute;
+  right: -70px;
+  top: 50%;
+}
+
+.about-heading {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.about-text {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.about-list {
+  padding-left: 0;
+}
+
+.about-list li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.about-list i {
+  color: #0dcaf0;
+  margin-right: 10px;
+}
+
+.read-btn {
+  background: #0dcaf0;
+  color: #fff;
+  padding: 15px 40px;
+  border: none;
+  font-size: 18px;
+}
+
+/* .read-btn:hover {
+  background: #0bb5cf;
+  color: #fff;
+}
+.material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .hero-gradient {
+            background: linear-gradient(rgba(15, 33, 35, 0.7), rgba(15, 33, 35, 0.7));
+        } */
+         
+.feature-card {
+  background: #f8f9fa;
+  border-radius: 16px;
+  padding: 40px 30px;
+  transition: all 0.4s ease;
+  height: 100%;
+}
+
+.feature-card .icon {
+  font-size: 50px;
+  color: #0dbcc0;
+  margin-bottom: 20px;
+  transition: all 0.4s ease;
+}
+
+.feature-card h4 {
+  font-weight: 750;
+  transition: all 0.4s ease;
+}
+
+.feature-card p {
+  color: hsl(210, 4%, 33%);
+  transition: all 0.4s ease;
+}
+
+.feature-card:hover {
+  background: #0dbcc0;
+}
+
+.feature-card:hover .icon,
+.feature-card:hover h4,
+.feature-card:hover p {
+  color: #fff;
+}
+
+.category-card {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.category-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.category-info {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: #fff;
+  padding: 14px 20px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.category-info span {
+  display: block;
+  color: #00bcd4;
+  font-weight: 600;
+}

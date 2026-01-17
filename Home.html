@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>eLearning Header</title>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg custom-navbar">
+     <div class="container-fluid px-0">
+
+    <!-- Left: Menu + Logo -->
+    <div class="d-flex align-items-center gap-3">
+      <i class="fas fa-book menu-icon"></i>
+      <a class="navbar-brand logo" href="#">eLEARNING</a>
+    </div>
+
+    <!-- Toggle -->
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Center Menu -->
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto me-4">
+        <li class="nav-item"><a class="nav-link active" href="#">HOME</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">COURSES</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">PAGES</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Page 1</a></li>
+            <li><a class="dropdown-item" href="#">Page 2</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+      </ul>
+
+      <!-- Right Button -->
+       
+      <a href="#" class="btn join-btn">
+        Join Now <i class="fas fa-arrow-right me-4"></i>
+       </a>
+      
+    </div>
+  </div>
+</nav>
+<!-- multiple images using curosel -->
+<div id="heroSlider" class="carousel slide hero" data-bs-ride="carousel" data-bs-interval="4000">
+
+    <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image:url('https://images.unsplash.com/photo-1523580846011-d3a5bc25702b');">
+            <div class="overlay"></div>
+
+            <div class="hero-content">
+                <span class="tag">BEST ONLINE COURSES</span>
+                <h1>The Best Online Learning Platform</h1>
+                <p>
+                    Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no.
+                </p>
+                <a href="#" class="btn btn-primary me-2">Read More</a>
+                <a href="#" class="btn btn-light">Join Now</a>
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image:url('https://images.unsplash.com/photo-1509062522246-3755977927d7');">
+            <div class="overlay"></div>
+
+            <div class="hero-content">
+                <span class="tag">ONLINE EDUCATION</span>
+                <h1>Learn From Anywhere</h1>
+                <p>
+                    Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus.
+                </p>
+                <a href="#" class="btn btn-primary me-2">Read More</a>
+                <a href="#" class="btn btn-light">Join Now</a>
+            </div>
+        </div>
+
+    </div>
+ <div class="arrows">
+        <span id="prev">&#8249;</span>
+        <span id="next">&#8250;</span>
+    </div>
+</div>
+
+
+
+ <!-- USING CARDS -->
+<div class="container py-5">
+  <div class="row g-4">
+
+    <div class="col-md-6 col-lg-3">
+      <div class="feature-card">
+        <div class="icon">🎓</div>
+        <h4>Skilled Instructors</h4>
+        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+      <div class="feature-card">
+        <div class="icon">🌍</div>
+        <h4>Online Classes</h4>
+        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+      <div class="feature-card">
+        <div class="icon">🏠</div>
+        <h4>Home Projects</h4>
+        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+      <div class="feature-card">
+        <div class="icon">📘</div>
+        <h4>Book Library</h4>
+        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+<!-- about us -->
+ <section class="about-section">
+  <div class="container">
+    <div class="row align-items-stretch">
+
+      <!-- IMAGE -->
+      <div class="col-lg-6">
+        <div class="about-img-wrap">
+          <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f" alt="About">
+        </div>
+      </div>
+
+      <!-- CONTENT -->
+      <div class="col-lg-6 d-flex">
+        <div class="align-self-center">
+
+          <span class="about-title">ABOUT US</span>
+          <h1 class="about-heading">Welcome to eLEARNING</h1>
+
+          <p class="about-text">
+            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
+            Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.
+          </p>
+
+          <p class="about-text">
+            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
+            Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
+            sed stet lorem sit clita duo justo magna dolore erat amet.
+          </p>
+
+          <div class="row">
+            <div class="col-sm-6">
+              <ul class="about-list">
+                <li><i class="fa-solid fa-arrow-right"></i>Skilled Instructors</li>
+                <li><i class="fa-solid fa-arrow-right"></i>International Certificate</li>
+                <li><i class="fa-solid fa-arrow-right"></i>Online Classes</li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <ul class="about-list">
+                <li><i class="fa-solid fa-arrow-right"></i>Online Classes</li>
+                <li><i class="fa-solid fa-arrow-right"></i>Skilled Instructors</li>
+                <li><i class="fa-solid fa-arrow-right"></i>International Certificate</li>
+              </ul>
+            </div>
+          </div>
+
+          <button class="read-btn mt-4">Read More</button>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+ 
+
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+ <script>
+    let carouselElement = document.querySelector('#heroSlider');
+    let carousel = new bootstrap.Carousel(carouselElement);
+
+    document.getElementById('next').addEventListener('click', () => {
+        carousel.next();
+    });
+
+    document.getElementById('prev').addEventListener('click', () => {
+        carousel.prev();
+    });
+</script>
+</body>
+</html>
