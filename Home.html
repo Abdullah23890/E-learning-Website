@@ -3,10 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>eLearning Header</title>
-<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
@@ -15,45 +13,47 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg custom-navbar">
-     <div class="container-fluid px-0">
-
-    <!-- Left: Menu + Logo -->
-    <div class="d-flex align-items-center gap-3">
-      <i class="fas fa-book menu-icon"></i>
-      <a class="navbar-brand logo" href="#">eLEARNING</a>
-    </div>
-
-    <!-- Toggle -->
-    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav">
+   <!-- Preloader -->
+  <div id="preloader">
+    <!-- <div class="spinner"></div> -->
+<div class="loader"></div>
+  </div>
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <i class="fas fa-book menu-icon me-2"></i>
+      <span class="logo">eLEARNING</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbar">
       <span class="navbar-toggler-icon"></span>
     </button>
-
-    <!-- Center Menu -->
-    <div class="collapse navbar-collapse" id="mainNav">
-      <ul class="navbar-nav ms-auto me-4">
-        <li class="nav-item"><a class="nav-link active" href="#">HOME</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">COURSES</a></li>
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+        <li class="nav-item"><a class="nav-link active" href="home.html">HOME</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
+        <li class="nav-item"><a class="nav-link" href="course.html">COURSES</a></li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">PAGES</a>
-          <ul class="dropdown-menu">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+            PAGES
+          </a>
+          <ul class="dropdown-menu dropdown-content">
             <li><a class="dropdown-item" href="#">Page 1</a></li>
             <li><a class="dropdown-item" href="#">Page 2</a></li>
           </ul>
         </li>
-        <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
-      </ul>
 
-      <!-- Right Button -->
-       
-      <a href="#" class="btn join-btn">
-        Join Now <i class="fas fa-arrow-right me-4"></i>
-       </a>
-      
+        <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+      </ul>
+      <div class="text-center">
+        <a href="#" class="btn join-btn">
+          Join Now <i class="fas fa-arrow-right ms-2"></i>
+        </a>
+      </div>
     </div>
   </div>
 </nav>
+
 <!-- multiple images using curosel -->
 <div id="heroSlider" class="carousel slide hero" data-bs-ride="carousel" data-bs-interval="4000">
 
@@ -90,8 +90,7 @@
         </div>
 
     </div>
- <div class="arrows">
-        <span id="prev">&#8249;</span>
+ <div class="arrows">        <span id="prev">&#8249;</span>
         <span id="next">&#8250;</span>
     </div>
 </div>
@@ -195,10 +194,363 @@
     </div>
   </div>
 </section>
- 
+ <!-- gird using html and css -->
+  <section class="categories">
+  <div class="section-title">
+    <h6>Categories</h6>
+    <h2>Courses Categories</h2>
+  </div>
+
+  <div class="grid">
+    <!-- Big Item -->
+    <div class="item big" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCl7wkU3ovohZ45XZOo-4wXfcKwdVA0MkOq2uwF4K5AHKWilFAZHEWMFuY8OWYjwMz97T4pJQSHDTynRAvht4uHXRUep9hZyXNaepMcBO2aWzGfBp-JNAprreFBfIPwMBxEjXruUQTK1It7_weqty0SOhYGt4cAiQhUufeaVZ23syBBk98D9izxyfvOQ9kH1x-9zz3Uh7cBU_rljaq4MtwT8o5-WU-RxGIJkaqg-CQHzABBUjEx854MP4cVLQdEa3_H-vBcAAi2KUI');">
+      <div class="overlay"></div>
+      <div class="para">
+        <h4>Web Design</h4>
+        <p>49 Courses</p>
+      </div>
+    </div>
+
+    <!-- Small Items -->
+    <div class="item" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC_bxCVemPhwOQG2If1uW6G_zG4SqblsGNsVcTunkJurCDEXBSlRlROiN-qFolhCEtXZ7CRUiwVTfxP3dW_xKvJ9GrIRJOEGlWAPTqP3UnN3IrQRn2s85Jm7p4Rd3QTPYeypo1ibXOCSfGSbtv2nKU7uZP_HGhEBLbRvRrlzlDNeaQHy77EPyRhw7BV9qQ6dGdqpat_zwqULKcCA2XVm56AZP5Hw_F8ia37EgtHzLo053dZApGmO1HUFZqOUPVwoIFG1eh-CWs_2us');">
+      <div class="overlay"></div>
+      <div class="para">
+        <h4>Graphic Design</h4>
+        <p>49 Courses</p>
+      </div>
+    </div>
+
+    <div class="item" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAaZCCmjXNlpeZ-Ag-qJQXG9J9UbM24R3sd9rWPzNtNzW5T6BsWJ0ahcGQPVSw463q6eDJW0TY4sPUhYSQlwYbn42GJeaa7Jebe7eMLPZLprMtNZlFHVH2qyqgAw5XtElRz2sIRsLpRxnd0oS-j2kUL6dshXsWYR_c4vyJAqCZ329tyOEqSfkckoi6q2n14w6E6cyZ6E2-9mA2oGlMh467AuTpjQaQ5FtM9BxcBlpoJLTRMd6z2xC6UkirqZC-dR6u0IyR_qqplIKQ');">
+      <div class="overlay"></div>
+      <div class="para">
+        <h4>Video Editing</h4>
+        <p>49 Courses</p>
+      </div>
+    </div>
+
+    <!-- Wide Item -->
+    <div class="item wide" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDw7igMG4MfogOJpv9gARJl9Qn3M_4GT36br1id164gXIxk4sBHv_z9DjtpcAmkQXc-NZQRTQR74Baf-srA7GTiRxlY1v8VRY-U-mWFsnDbrUxm3f45uzwHkLk6EPJsUTC12bUfLxS2xipvCEZ0ClhZKnun0fk0di26aSikLn37aMvxDF15MFEECOBJfMjULbCLyPIJozdAYcgidCBd6sqRnymnXKIHdHvOjJyp2GwOFQ8MPT4WBSo0S5V2BnK3JuNOAwaTwUcbNnk');">
+      <div class="overlay"></div>
+      <div class="para">
+        <h4>Online Marketing</h4>
+        <p>49 Courses</p>
+      </div>
+    </div>
+  </div>
+
+<!-- !-- Popular courses --> 
+ <section>
+<div class="section-title">
+  <span class="small-title" style="margin-top: 50px;">
+    <i></i> COURSES <i></i>
+  </span>
+  <h2>Popular Courses</h2></div>
+  <div class="course-wrapper">
+
+  <!-- Card -->
+  <div class="course-card">
+    <div class="img-box">
+      <img src="app.png" alt="">
+      <div class="img-overlay" style="padding-top: 200px;">
+        <a href="#">Read More</a>
+        <a href="#">Join Now</a>
+      </div>
+    </div>
+
+     <div class="content">
+      <h2>$149.00</h2>
+
+      <div class="rating">
+        ★★★★★ <span>(123)</span>
+      </div>
+
+      <h3>Web Design & Development<br>Course for Beginners</h3>
+    </div> 
+
+    <div class="foot">
+      <span><i class="fa fa-user"></i> John Doe</span>
+      <span><i class="fa fa-clock"></i> 1.49 Hrs</span>
+      <span><i class="fa fa-users"></i> 30 Students</span>
+    </div>
+  </div>
+
+  <!-- Copy same card for 2nd & 3rd -->
+  <div class="course-card">
+    <div class="img-box">
+      <img src="html.png" alt="">
+      <div class="img-overlay" style="padding-top: 200px;">
+        <a href="#">Read More</a>
+        <a href="#">Join Now</a>
+      </div>
+    </div>
+
+    <div class="content">
+      <h2>$149.00</h2>
+      <div class="rating">★★★★★ <span>(123)</span></div>
+      <h3>Web Design & Development<br>Course for Beginners</h3>
+    </div>
+
+    <div class="foot">
+      <span><i class="fa fa-user"></i> John Doe</span>
+      <span><i class="fa fa-clock"></i> 1.49 Hrs</span>
+      <span><i class="fa fa-users"></i> 30 Students</span>
+    </div>
+  </div>
+
+  <div class="course-card">
+    <div class="img-box">
+      <img src="web.png" alt="">
+      <div class="img-overlay" style="padding-top: 200px;">
+        <a href="#">Read More</a>
+        <a href="#">Join Now</a>
+      </div>
+    </div>
+
+    <div class="content">
+      <h2>$149.00</h2>
+      <div class="rating">★★★★★ <span>(123)</span></div>
+      <h3>Web Design & Development<br>Course for Beginners</h3>
+    </div>
+
+    <div class="foot">
+      <span><i class="fa fa-user"></i> John Doe</span>
+      <span><i class="fa fa-clock"></i> 1.49 Hrs</span>
+      <span><i class="fa fa-users"></i> 30 Students</span>
+    </div>
+  </div>
+
+</div>
 
 
 
+
+<!-- expert instructors -->
+  <div class="container">
+  <div class="row">
+    <div class="col-12 text-center instructor-head fs-4 pt-5">
+     <i class="bi bi-bar-chart-line-fill"></i> INSTRUCTORS <i class="bi bi-bar-chart-line-fill"></i>
+    </div>
+    <div class="col-12 instructo-subhead pt-4 py-3" style="text-align: center;">EXPERT INSTRUCTORS</div>
+    <div class="col-12 col-md-3 pt-3">
+      <div class="card card-instructor">
+        <div class="card-body">
+          <img src="expert1.jpg" class="img-fluid instructor-img" alt="">
+          <div class="container icon-container">
+            <div class="row">
+              <div class="col-3 icon-main">
+                <i class="bi bi-facebook instructor-icon d-flex align-items-center justify-content-center"></i>
+              </div>
+              <div class="col-3 icon-main">
+                <i class="bi bi-instagram instructor-icon d-flex align-items-center justify-content-center"></i>
+              </div>
+              <div class="col-3 icon-main">
+                <i class="bi bi-pinterest instructor-icon d-flex align-items-center justify-content-center"></i>
+              </div>
+            </div>
+          </div>
+          <div class="text-center fs-5 fw-bold pt-3">John Doe</div>
+          <div class="text-center text-muted">Web Developer</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-3 pt-3">
+      <div class="card card-instructor">
+        <div class="card-body">
+          <img src="expert2.jpg" class="img-fluid instructor-img" alt="">
+          <div class="container icon-container">
+            <div class="row">
+              <div class="col-3 icon-main">
+                <i class="bi bi-facebook instructor-icon d-flex align-items-center justify-content-center"></i>
+              </div>
+              <div class="col-3 icon-main">
+                <i class="bi bi-instagram instructor-icon d-flex align-items-center justify-content-center"></i>
+              </div>
+              <div class="col-3 icon-main">
+                <i class="bi bi-pinterest instructor-icon d-flex align-items-center justify-content-center"></i>
+              </div>
+            </div>
+          </div>
+          <div class="text-center fs-5 fw-bold pt-3">John Doe</div>
+          <div class="text-center text-muted">Coaching</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-3 pt-3">
+      <div class="card card-instructor">
+        <div class="card-body">
+          <img src="expert3.jpg" class="img-fluid instructor-img" alt="">
+          <div class="container icon-container">
+            <div class="row">
+              <div class="col-3 icon-main">
+                <i class="bi bi-facebook instructor-icon d-flex align-items-center justify-content-center"></i>
+              </div>
+              <div class="col-3 icon-main">
+                <i class="bi bi-instagram instructor-icon d-flex align-items-center justify-content-center"></i>
+              </div>
+              <div class="col-3 icon-main">
+                <i class="bi bi-pinterest instructor-icon d-flex align-items-center justify-content-center"></i>
+              </div>
+            </div>
+          </div>
+          <div class="text-center fs-5 fw-bold pt-3">John Doe</div>
+          <div class="text-center text-muted">Graphics Designer</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-3 pt-3">
+      <div class="card card-instructor">
+        <div class="card-body">
+          <img src="expert4.jpg" class="img-fluid instructor-img" alt="">
+          <div class="container icon-container">
+            <div class="row">
+              <div class="col-3 icon-main">
+                <i class="bi bi-facebook instructor-icon d-flex align-items-center justify-content-center"></i>
+              </div>
+              <div class="col-3 icon-main">
+                <i class="bi bi-instagram instructor-icon d-flex align-items-center justify-content-center"></i>
+              </div>
+              <div class="col-3 icon-main">
+                <i class="bi bi-pinterest instructor-icon d-flex align-items-center justify-content-center"></i>
+              </div>
+            </div>
+          </div>
+          <div class="text-center fs-5 fw-bold pt-3">John Doe</div>
+          <div class="text-center text-muted">Phython Developer</div>
+        </div>
+      
+  </div>
+</div>
+
+<!-- using testimonial-card -->
+ <div class="testimonial-wrapper">
+    <div class="hp" style="padding-bottom: 10px;">
+    <p style="text-align: center ; font-size: 20px;
+  color: #0dbcc0;  font-weight: 750; padding-bottom: 5px;"> Testimonial </p>
+    <h1 style="text-align: center; color: black;"> Our Students Say!</h1></div>
+    <div class="testimonial-card">
+
+      <div class="avatar">
+        <img src="expert1.jpg" alt="Client" style="width: 90px; height: 90px; border-radius: 30px;">
+      </div>
+
+      <h2>Client Name</h2>
+      <p class="profession">Profession</p>
+
+      <div class="stars">
+        ★ ★ ★ ★ ★
+      </div>
+
+      <p class="testimonial-text">
+        “Dolor et eos labore, stet justo sed est sed. Diam sed sed erat amet ipsum eirmod
+        eos vero facilis. Kasd accusam sea aliquyam vero et sea rebum.”
+      </p>
+
+    </div>
+  </div>
+
+
+
+  <!-- footer -->
+<div class="container-fluid mt-5 bg-custom-footer ">
+  <div class="row">
+    <div class="col-12 col-md-4 py-5 ps-5">
+      <div class="text-start text-light fs-4 fw-bold">Quick Link</div>
+      <div class="text-start pt-3">
+        <span><i class="bi bi-arrow-right-circle-fill text-light"></i></span>
+        <a href="about.html" class="footer">About</a>
+      </div>
+      <div class="text-start pt-2">
+        <span><i class="bi bi-arrow-right-circle-fill text-light"></i></span>
+        <a href="contact.html" class="footer">Contact</a>
+      </div>
+      <div class="text-start pt-2">
+        <span><i class="bi bi-arrow-right-circle-fill text-light"></i></span>
+        <a href="#top" class="footer">Testimonal</a>
+      </div>
+      <div class="text-start pt-2">
+        <span><i class="bi bi-arrow-right-circle-fill text-light"></i></span>
+        <a href="#top" class="footer">Privacy Policy</a>
+      </div>
+      <div class="text-start pt-2">
+        <span><i class="bi bi-arrow-right-circle-fill text-light"></i></span>
+        <a href="" class="footer" data-bs-toggle="modal" data-bs-target="#exampleModal">Terms Condition</a>
+      </div>
+      </div>
+    <div class="col-12 col-md-4 py-5 ps-5">
+      <div class="text-start text-light fs-4 fw-bold">Contact</div>
+      <div class="text-start pt-3">
+        <span><i class="bi bi-geo-alt-fill text-light"></i></span>
+        <a href="https://map.google.com" target="_blank" class="footer">123 Street, New York, USA</a>
+      </div>
+      <div class="text-start pt-2">
+        <span><i class="bi bi-telephone-x-fill text-light"></i></span>
+        <a href="https://contacts.google.com/" target="_blank" class="footer">+92 333 3981111</a>
+      </div>
+      <div class="text-start pt-2">
+        <span><i class="bi bi-envelope-arrow-up-fill text-light"></i></span>
+        <a href="https://email.google.com/" target="_blank" class="footer">ak1636802@gmail.com</a>
+      </div>
+      <div class=" d-flex text-start pt-2">
+        <div class="footer-icon d-flex align-items-center justify-content-center">
+          <i class="bi bi-facebook"></i>
+        </div>
+        <div class="footer-icon ms-2 d-flex align-items-center justify-content-center">
+          <i class="bi bi-instagram"></i>
+        </div>
+        <div class="footer-icon ms-2 d-flex align-items-center justify-content-center">
+          <i class="bi bi-twitter"></i>
+        </div>
+      </div>
+      </div>
+  <div class="col-12 col-md-4 py-5 ps-5">
+      <div class="text-start text-light fs-4 fw-bold">Subscribe</div>
+      <div class="text-start pt-3">
+        <span><i class="bi bi-newspaper text-light"></i></span>
+        <a href="" class="footer">Subscribe Our Newsletter</a>
+      </div>
+      <div class="text-start pt-2">
+        <form class="d-flex" onsubmit="return checkEmail()">
+        <input type="email" placeholder="example@gmail.com" class="form-control w-50" id="email">
+        <button type="submit" class="btn btn-success">
+        <i class="bi bi-box-arrow-in-right"></i>
+        </button>
+        </form>
+      </div>
+</div>
+<div class="col-12">
+  <div class="text-center text-light pb-3">
+    <i class="bi bi-c-circle"></i> 2024 All Right Reserved by eLEARNING
+  </div>
+</div>
+</div>
+
+
+<!-- bootstrap modal start -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Terms & Conditions</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        By subscribing, you agree to receive updates and newsletters from us.
+Your email will be used only for communication purposes and will not be shared with third parties.
+You may unsubscribe at any time without any obligation.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Agree</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-- bootstrap modal end -->
+  
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
  <script>
@@ -212,6 +564,78 @@
     document.getElementById('prev').addEventListener('click', () => {
         carousel.prev();
     });
+
+    // footer
+ function checkEmail() {
+  let email = document.getElementById("email").value;
+
+  if(email === ""){
+    Swal.fire({
+  title: "Email",
+  text: "Plz Enter Email",
+  icon: "warning"
+});
+return false;
+  } else {
+    swal.fire({
+      title: "Enjoy",
+      text: "Enjoy Our New Letter",
+      icon: "success"
+    })
+return false;
+  }
+}
+
+const elements = document.querySelectorAll(".animate");
+
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+
+      const dir = entry.target.dataset.animate;
+
+      let startTransform = "translateY(80px)";
+
+      if (dir === "left") startTransform = "translateX(-120px)";
+      if (dir === "right") startTransform = "translateX(120px)";
+      if (dir === "bottom") startTransform = "translateY(120px)";
+
+      entry.target.animate(
+        [
+          {
+            transform: startTransform,
+            opacity: 0
+          },
+          {
+            transform: "translate(0,0)",
+            opacity: 1
+          }
+        ],
+        {
+          duration: 1100, // smooth time
+          easing: "cubic-bezier(0.16, 1, 0.3, 1)", // ultra smooth
+          fill: "forwards"
+        }
+      );
+
+      observer.unobserve(entry.target);
+    });
+  },
+  {
+    threshold: 0.25
+  }
+);
+
+elements.forEach((el) => observer.observe(el));
+
+
+
 </script>
+<script>
+    window.addEventListener("load", function () {
+     document.getElementById("preloader").style.display="none";
+    });
+  </script>
 </body>
 </html>
