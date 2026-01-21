@@ -13,4 +13,7 @@ Salman designed and developed the Home and Contact pages, ensuring a user-friend
 
 The project is fully built using our current web development skills, applying HTML, CSS, Bootstrap, and responsive design principles. Through this assignment, we improved our understanding of real-world website structure, teamwork, and practical implementation of front-end concepts.
 
+
 This submission reflects our independent effort, collaboration, and learning outcomes.
+
+https://abdullah23890.github.io/E-Learning-Website/Home.html
