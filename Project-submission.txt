@@ -16,4 +16,7 @@ The project is fully built using our current web development skills, applying HT
 
 This submission reflects our independent effort, collaboration, and learning outcomes.
 
-https://abdullah23890.github.io/E-Learning-Website/Home.html
+Live Project Link
+https://abdullah23890.github.io/E-learning-Website/about.html
+Video Link
+https://drive.google.com/file/d/1_JD3Nq8XafAGPpcjDCU8Zs0qSSJo0DRm/view?usp=drive_link
